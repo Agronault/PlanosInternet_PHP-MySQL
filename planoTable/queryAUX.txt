@@ -1,0 +1,2 @@
+SELECT p.cod, p.nome, t.tipo, pv.produtora, p.descricao, p.preco, p.thumbnail from planos p
+JOIN tipos t ON p.tipo = t.cod JOIN provedoras pv on p.provedora = pv.cod;
